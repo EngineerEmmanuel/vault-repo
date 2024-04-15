@@ -18,7 +18,7 @@ export default function PostCode() {
     },
   ];
 
-  const [seeMore, setSeeMore] = useState(false);
+  const [seeMore, setSeeMore] = useState<boolean | undefined>(false);
 
   const code = `import { Override } from "framer";
   import { useState, useEffect } from "react";
@@ -35,9 +35,9 @@ export default function PostCode() {
       };
     }, []);
     return {
-      text: scrollPosition.toFixed(0), // Coverts scroll position to a string without decimal points
+      text: scrollPosition.toFixed(0), 
     };
-  }`;
+  }"`;
 
   return (
     <main className="flex justify-center items-center h-full ">
