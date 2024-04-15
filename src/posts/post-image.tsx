@@ -1,6 +1,6 @@
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 
-export default function PostAudio() {
+export default function PostImage() {
   const categories = [
     {
       id: 1,
@@ -31,7 +31,7 @@ export default function PostAudio() {
       <div className="flex flex-col justify-center items-center">
         {/* text post */}
 
-        <div className="h-[450px] w-[343px] shadow-md bg-[#ffffff] p-[20px] rounded-[16px] md:w-[600px] md:h-[500px]">
+        <div className="h-[562px] w-[343px] shadow-md bg-[#ffffff] p-[24px] rounded-[16px] md:w-[600px] md:h-[773px]">
           {/* profile main container */}
           <div className="flex justify-between items-center">
             {/* profile gen con */}
@@ -59,46 +59,54 @@ export default function PostAudio() {
 
           {/* post content con */}
           <div className="mt-[5px] md:mt-[24px]">
-            <h3 className="text-gray-800 text-xl font-bold font-['Space Grotesk'] leading-[30px]">
-              Post Title Et laboris reprehe
+            <h3 className="text-gray-800 text-base md:text-xl font-bold font-['Space Grotesk'] leading-relaxed md:leading-[30px]">
+              Post Title Et laboris reprehenderit <br className="md:hidden" />{" "}
+              laboris officia
             </h3>
-            <h5 className="  md:hidden mt-[20px] text-gray-800 text-base font-medium font-['Space Grotesk'] leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusm tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              ad minim veniam, quis nostrud
-            </h5>
 
-            <h5 class="hidden md:block mt-[20px] text-gray-800 text-base font-medium font-['Space Grotesk'] leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusm tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in volupt velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint.
+            <h5 className="mt-[20px] md:hidden text-gray-800 text-base font-medium font-['Space Grotesk'] leading-relaxed">
+              Coming soon: The privacy-first VPN that CAN'T track your activity.
+              Be the first to use Obscura: https://obscuravpn.io Join our tester
+              community!
+            </h5>
+            <h5 className="hidden md:block mt-[20px] text-gray-800 text-base font-medium font-['Space Grotesk'] leading-relaxed">
+              Coming soon: The privacy-first VPN that CAN'T track your activity.
+              Be the first to use Obscura: https://obscuravpn.io Join our tester
+              community! Discord: https://discord.gg Matrix Bridge:
+              <br />
+              https://matrix.to/#/!CznDYbvmUUGxsJaWuW:matrix.social.obscuravon.io?via=matrix.social.obscuravon.io&via=matrix.org
             </h5>
 
             {/* image con */}
-            <div className="mt-[10px] h-12 w-full bg-red-500"></div>
+            <div className="mt-[10px]">
+              <img
+                src="https://images.pexels.com/photos/20606227/pexels-photo-20606227/free-photo-of-a-person-standing-on-the-beach-in-the-ocean.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                alt=""
+                className=" h-[170px] w-full md:h-[311px]"
+              />
+            </div>
+
             {/* categories con */}
             <div className="flex gap-[20px] mt-[20px]">
               {categories.map((cate) => {
                 return (
                   <button
                     key={cate.id}
-                    className=" w-[79px] px-2 py-1 bg-purple-50 rounded-lg  text-gray-800 text-sm font-medium font-['Space Grotesk'] leading-normal"
+                    className=" bg-[#f9f8ff] w-[79px] px-2 py-1 rounded-lg"
                   >
                     {cate.title}
                   </button>
                 );
               })}
             </div>
+
             {/* hash tags con */}
             <div className="flex gap-[20px] mt-[20px]">
               {hastags.map((tag) => {
                 return (
                   <button
                     key={tag.id}
-                    className="w-[81px] px-2 py-1 bg-violet-100 rounded-lg  text-indigo-500 text-sm font-medium font-['Space Grotesk'] leading-normal"
+                    className="bg-[#ede7ff] text-[#7766ff] w-[81px] px-2 py-1 rounded-lg"
                   >
                     {tag.title}
                   </button>

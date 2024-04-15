@@ -1,6 +1,6 @@
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 
-export default function PostImageMulti2() {
+export default function PostImageMulti1() {
   const categories = [
     {
       id: 1,
@@ -31,7 +31,7 @@ export default function PostImageMulti2() {
       <div className="flex flex-col justify-center items-center">
         {/* text post */}
 
-        <div className="w-[343px] h-[556px] shadow-md bg-[#ffffff]     md:w-[600px] md:h-[746px] p-6  rounded-2xl">
+        <div className="w-[343px] h-[582px] shadow-md bg-[#ffffff]     md:w-[600px] md:h-[587px] p-6  rounded-2xl">
           {/* profile main container */}
           <div className="flex justify-between items-center">
             {/* profile gen con */}
@@ -64,7 +64,7 @@ export default function PostImageMulti2() {
             </h3>
             {/* text con */}
             <div className="mt-[10px]">
-              <h5 class=" hidden md:block text-gray-800 text-sm font-medium font-['Space Grotesk'] leading-normal">
+              <h5 className=" text-gray-800 text-sm font-medium font-['Space Grotesk'] leading-normal">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusm tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -72,35 +72,19 @@ export default function PostImageMulti2() {
                 in reprehenderit in volupt velit esse cillum dolore eu fugiat
                 nulla pariatur. Excepteur sint.
               </h5>
-
-              <h5 className="md:hidden  text-gray-800 text-sm font-medium font-['Space Grotesk'] leading-normal">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusm tempor inci ut labore et dolore magna aliq.
-              </h5>
             </div>
             {/* image con */}
-            <div className="mt-[10px] grid grid-cols-2 items-center gap-[10px]">
+            <div className="mt-[10px] flex justify-center items-center gap-x-[5px]">
               <img
                 src="https://images.pexels.com/photos/20606227/pexels-photo-20606227/free-photo-of-a-person-standing-on-the-beach-in-the-ocean.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
                 alt=""
-                className=" h-[100px] w-full md:h-[151px]"
+                className=" h-[110px] w-[50%] md:h-[151px]"
               />
 
               <img
                 src="https://images.pexels.com/photos/20606227/pexels-photo-20606227/free-photo-of-a-person-standing-on-the-beach-in-the-ocean.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
                 alt=""
-                className=" h-[100px] w-full md:h-[151px]"
-              />
-              <img
-                src="https://images.pexels.com/photos/20606227/pexels-photo-20606227/free-photo-of-a-person-standing-on-the-beach-in-the-ocean.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-                alt=""
-                className=" h-[100px] w-full md:h-[151px]"
-              />
-
-              <img
-                src="https://images.pexels.com/photos/20606227/pexels-photo-20606227/free-photo-of-a-person-standing-on-the-beach-in-the-ocean.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-                alt=""
-                className=" h-[100px] w-full md:h-[151px]"
+                className=" h-[110px] w-[50%] md:h-[151px]"
               />
             </div>
 

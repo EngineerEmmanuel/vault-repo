@@ -58,7 +58,7 @@ export default function PostFile() {
               ad minim veniam, quis nostrud
             </h5>
 
-            <h5 class="hidden md:block mt-[15px] md:mt-[24px] text-gray-800 text-base font-medium font-['Space Grotesk'] leading-relaxed">
+            <h5 className="hidden md:block mt-[15px] md:mt-[24px] text-gray-800 text-base font-medium font-['Space Grotesk'] leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusm tempor incididunt ut labore et dolore magna aliqua. Ut enim
               ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

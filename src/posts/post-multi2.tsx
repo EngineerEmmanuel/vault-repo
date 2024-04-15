@@ -64,7 +64,7 @@ export default function PostImageMulti2() {
             </h3>
             {/* text con */}
             <div className="mt-[10px]">
-              <h5 class=" hidden md:block text-gray-800 text-sm font-medium font-['Space Grotesk'] leading-normal">
+              <h5 className=" hidden md:block text-gray-800 text-sm font-medium font-['Space Grotesk'] leading-normal">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusm tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -96,11 +96,6 @@ export default function PostImageMulti2() {
                 alt=""
                 className=" h-[100px] w-full md:h-[151px]"
               />
-
-              {/* placeholder */}
-              <div className="flex justify-center items-center h-[100px] w-full md:h-[151px] bg-blue-600">
-                <h6 className="text-[#fff]">+2 more</h6>
-              </div>
             </div>
 
             {/* categories con */}
